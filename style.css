@@ -1,0 +1,247 @@
+.face{
+    height: 600px;
+    width: 500px;
+    background-color: yellow;
+    margin: auto;
+    position: relative;
+    border: 6px solid black;
+    overflow: hidden;
+
+}
+.boxeyelash{
+    position: absolute;
+    display: inline-flex;
+    width: 100%;
+}
+
+.eyelashl{
+    height: 25px;
+    width: 7px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 8px;
+    left: 26px;
+      
+}
+.eyelashm{
+    height: 25px;
+    width: 7px;
+    background-color: #000;
+    position: relative;
+    bottom: 20px;
+    left: 75px;
+}
+.eyelashr{
+    height: 25px;
+    width: 7px;
+    background-color: #000;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 11px;
+    left: 120px;    
+}
+.boxeye{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    top: 55px;
+}
+.circle{
+    height: 151px;
+    width: 160px;
+    position: relative;
+    background: white;
+    border-radius: 100px;
+    display: inline-flex;
+    align-items: center;
+    border: solid 6px #000;
+    margin-right: -20px;
+    margin-left: -20px;    
+}
+
+.circlep{
+    height: 70px;
+    width: 70px;
+    background: turquoise;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 39px;
+    border: 3px solid black;
+}
+.pupil{
+    height: 40px;
+    width: 40px;
+    background: #000;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 16px;
+}
+.nose{
+    height: 52px;
+    width: 29px;
+    border: 6px solid black;
+    border-radius: 50px;
+    border-bottom: 6px solid transparent;
+    position: relative;
+    left: 48%;
+    background-color: inherit;
+}
+.mouth{
+    height: 70px;
+    width: 300px;
+    border-radius: 65%;
+    background-color: transparent;
+    border-bottom: 8px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;   
+}   
+.pimple{
+    height: 40px;
+    width: 60px;
+    border-radius: 75%;
+    border-bottom: 6px solid transparent; 
+    position: relative;
+    background-color: inherit;
+    border-top: 8px solid red; 
+}
+#left{
+    left: -30px;
+}
+#right{
+    right: -30px;
+}
+.teeth{
+    height: 60px;
+    width: 15%;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 43%;
+    bottom: 4px;    
+}
+.tooth{
+    height: 40px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    border: 5px solid black;
+}
+.groupbox{
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+}
+.waist{
+    height: 65px;
+    width: 500px;
+    background-color: white;
+    border-top: 6px solid black;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.pants{
+    height: 100px;
+    width: 100%;
+    background-color: saddlebrown;
+    border-top: 6px solid black;
+    display: inline-flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 20px;
+    width: 80px;
+    background-color: black;
+}
+.square{
+    height: 89px;
+    width: 89px;
+    background-color: red;
+    border: 5px solid black;
+    position: relative;
+    transform: rotate(45deg);
+    bottom: 109px;
+    left: 40%; 
+}
+.triangle{
+    height: 55px;
+    width: 55px;
+    background-color: red;
+    border: 5px solid black;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 29px;
+}
+.neckr{
+    height: 35px;
+    width: 65px;
+    border: 5px solid black;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 35px;
+}
+.neckl{
+    height: 35px;
+    width: 65px;
+    border: 5px solid black;
+    transform: rotate(-30deg);
+    position: relative;
+    bottom: 35px; 
+}
+.pore{
+    height: 47px;
+    width: 47px;
+    border-radius: 90px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 0px;
+}
+.pore1{
+    height: 65px;
+    width: 65px;
+    border-radius: 90px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+.pore2{
+    height: 45px;
+    width: 45px;
+    border-radius: 90px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 345px;
+    left: 360px;
+}
+.pore3{
+    height: 45px;
+    width: 45px;
+    border-radius: 90px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 245px;
+    left: 470px;
+}
+.pore4{
+    height: 15px;
+    width: 15px;
+    border-radius: 90px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 75px;
+    left: 455px;
+}
